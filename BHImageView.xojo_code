@@ -15,6 +15,12 @@ Inherits iOSImageView
 
 	#tag ViewBehavior
 		#tag ViewProperty
+			Name="Image"
+			Visible=true
+			Group="Behavior"
+			Type="iOSImage"
+		#tag EndViewProperty
+		#tag ViewProperty
 			Name="AccessibilityHint"
 			Group="Behavior"
 			Type="Text"
@@ -28,7 +34,7 @@ Inherits iOSImageView
 			Name="ContentMode"
 			Visible=true
 			Group="Behavior"
-			Type="ContentModes"
+			Type="iOSImageView.ContentModes"
 			EditorType="Enum"
 			#tag EnumValues
 				"0 - ScaleToFill"

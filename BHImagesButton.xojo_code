@@ -11,10 +11,10 @@ Begin iOSContainerControl BHImagesButton
    Begin iOSLabel Label1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   Label1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Label1, 8, , 0, False, +1.00, 1, 1, 38, 
-      AutoLayout      =   Label1, 4, <Parent>, 4, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Label1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, 
+      AutoLayout      =   Label1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Label1, 8, , 0, False, +1.00, 1, 1, 38, , True
+      AutoLayout      =   Label1, 4, <Parent>, 4, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Label1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, , True
       Enabled         =   True
       Height          =   38.0
       Left            =   0
@@ -33,12 +33,13 @@ Begin iOSContainerControl BHImagesButton
    Begin iOSImageView ImageView1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   ImageView1, 1, <Parent>, 1, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   ImageView1, 4, <Parent>, 4, False, +1.00, 1, 1, -38, 
-      AutoLayout      =   ImageView1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   ImageView1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, 
+      AutoLayout      =   ImageView1, 1, <Parent>, 1, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   ImageView1, 4, <Parent>, 4, False, +1.00, 1, 1, -38, , True
+      AutoLayout      =   ImageView1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   ImageView1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, , True
       ContentMode     =   "1"
       Height          =   84.0
+      Image           =   "0"
       Image           =   "0"
       Left            =   0
       LockedInPosition=   False
@@ -50,10 +51,10 @@ Begin iOSContainerControl BHImagesButton
    Begin iOSCanvas Canvas1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      AutoLayout      =   Canvas1, 3, ImageView1, 3, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Canvas1, 4, Label1, 4, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Canvas1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, 
-      AutoLayout      =   Canvas1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, 
+      AutoLayout      =   Canvas1, 3, ImageView1, 3, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Canvas1, 4, Label1, 4, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Canvas1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, , True
+      AutoLayout      =   Canvas1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
       Height          =   122.0
       Left            =   0
       LockedInPosition=   False
@@ -123,13 +124,6 @@ End
 		Type="Double"
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="Index"
-		Visible=true
-		Group="ID"
-		InitialValue="-2147483648"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Label"
 		Visible=true
 		Group="Behavior"
@@ -169,5 +163,10 @@ End
 		Name="Width"
 		Group="Position"
 		Type="Double"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Image"
+		Group="Behavior"
+		Type="iOSImage"
 	#tag EndViewProperty
 #tag EndViewBehavior
