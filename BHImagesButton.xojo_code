@@ -13,11 +13,12 @@ Begin MobileContainer BHImagesButton
    Begin MobileLabel Label1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
-      Alignment       =   ""
+      Alignment       =   0
       AutoLayout      =   Label1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Label1, 8, , 0, False, +1.00, 1, 1, 38, , True
       AutoLayout      =   Label1, 4, <Parent>, 4, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Label1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, , True
+      ControlCount    =   0
       Enabled         =   True
       Height          =   38
       Left            =   0
@@ -28,6 +29,7 @@ Begin MobileContainer BHImagesButton
       TextColor       =   &c00000000
       TextFont        =   ""
       TextSize        =   0
+      TintColor       =   &c000000
       Top             =   84
       Visible         =   True
       Width           =   106
@@ -39,13 +41,15 @@ Begin MobileContainer BHImagesButton
       AutoLayout      =   ImageView1, 4, <Parent>, 4, False, +1.00, 1, 1, -38, , True
       AutoLayout      =   ImageView1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   ImageView1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, , True
-      DisplayMode     =   ""
+      ControlCount    =   0
+      DisplayMode     =   0
       Enabled         =   True
       Height          =   84
       Image           =   0
       Left            =   0
       LockedInPosition=   False
       Scope           =   0
+      TintColor       =   &c000000
       Top             =   0
       Visible         =   True
       Width           =   106
@@ -57,11 +61,13 @@ Begin MobileContainer BHImagesButton
       AutoLayout      =   Canvas1, 4, Label1, 4, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Canvas1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Canvas1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
+      ControlCount    =   0
       Enabled         =   True
       Height          =   122
       Left            =   0
       LockedInPosition=   False
       Scope           =   0
+      TintColor       =   &c000000
       Top             =   0
       Visible         =   True
       Width           =   106
@@ -164,8 +170,8 @@ End
 		Visible=true
 		Group="Behavior"
 		InitialValue=""
-		Type="Text"
-		EditorType=""
+		Type="String"
+		EditorType="MultiLineEditor"
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Left"
@@ -213,6 +219,14 @@ End
 		Group="Position"
 		InitialValue=""
 		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Image"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Picture"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior
