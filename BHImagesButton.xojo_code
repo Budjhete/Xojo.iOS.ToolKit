@@ -13,6 +13,7 @@ Begin MobileContainer BHImagesButton
    Begin MobileLabel Label1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
+      AdjustTextSizeToFit=   False
       Alignment       =   0
       AutoLayout      =   Label1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Label1, 8, , 0, False, +1.00, 1, 1, 38, , True
@@ -24,7 +25,11 @@ Begin MobileContainer BHImagesButton
       Left            =   0
       LineBreakMode   =   0
       LockedInPosition=   False
+      MaximumCharactersAllowed=   0
       Scope           =   0
+      SelectedText    =   ""
+      SelectionLength =   0
+      SelectionStart  =   0
       Text            =   "LABEL"
       TextColor       =   &c00000000
       TextFont        =   ""
@@ -33,6 +38,7 @@ Begin MobileContainer BHImagesButton
       Top             =   84
       Visible         =   True
       Width           =   106
+      _ClosingFired   =   False
    End
    Begin MobileImageViewer ImageView1
       AccessibilityHint=   ""
@@ -42,7 +48,7 @@ Begin MobileContainer BHImagesButton
       AutoLayout      =   ImageView1, 3, <Parent>, 3, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   ImageView1, 2, <Parent>, 2, False, +1.00, 1, 1, 0, , True
       ControlCount    =   0
-      DisplayMode     =   0
+      DisplayMode     =   1
       Enabled         =   True
       Height          =   84
       Image           =   0
@@ -51,12 +57,15 @@ Begin MobileContainer BHImagesButton
       Scope           =   0
       TintColor       =   &c000000
       Top             =   0
+      URL             =   ""
       Visible         =   True
       Width           =   106
+      _ClosingFired   =   False
    End
    Begin MobileCanvas Canvas1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
+      AllowKeyEvents  =   False
       AutoLayout      =   Canvas1, 3, ImageView1, 3, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Canvas1, 4, Label1, 4, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Canvas1, 2, ImageView1, 2, False, +1.00, 1, 1, 0, , True
@@ -71,6 +80,7 @@ Begin MobileContainer BHImagesButton
       Top             =   0
       Visible         =   True
       Width           =   106
+      _ClosingFired   =   False
    End
 End
 #tag EndMobileContainer
