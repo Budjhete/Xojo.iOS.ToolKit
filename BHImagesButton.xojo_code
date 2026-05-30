@@ -14,7 +14,7 @@ Begin MobileContainer BHImagesButton
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
       AdjustTextSizeToFit=   False
-      Alignment       =   0
+      Alignment       =   1
       AutoLayout      =   Label1, 1, ImageView1, 1, False, +1.00, 1, 1, 0, , True
       AutoLayout      =   Label1, 8, , 0, False, +1.00, 1, 1, 38, , True
       AutoLayout      =   Label1, 4, <Parent>, 4, False, +1.00, 1, 1, 0, , True
