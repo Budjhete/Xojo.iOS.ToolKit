@@ -10,6 +10,28 @@ Begin MobileContainer BHImagesButton
    Top             =   0
    Visible         =   True
    Width           =   106
+   Begin MobileRectangle ButtonBackground
+      AccessibilityHint=   ""
+      AccessibilityLabel=   ""
+      AutoLayout      =   ButtonBackground, 1, <Parent>, 1, False, +1.00, 4, 1, 0, , True
+      AutoLayout      =   ButtonBackground, 2, <Parent>, 2, False, +1.00, 4, 1, 0, , True
+      AutoLayout      =   ButtonBackground, 3, <Parent>, 3, False, +1.00, 4, 1, 0, , True
+      AutoLayout      =   ButtonBackground, 4, <Parent>, 4, False, +1.00, 4, 1, 0, , True
+      BorderColor     =   &cF5F5F500
+      BorderThickness =   0.0
+      ControlCount    =   0
+      CornerSize      =   10.0
+      Enabled         =   True
+      FillColor       =   &cF5F5F500
+      Height          =   122
+      Left            =   0
+      LockedInPosition=   False
+      Scope           =   0
+      TintColor       =   &c000000
+      Top             =   0
+      Visible         =   True
+      Width           =   106
+   End
    Begin MobileLabel Label1
       AccessibilityHint=   ""
       AccessibilityLabel=   ""
@@ -86,6 +108,19 @@ End
 #tag EndMobileContainer
 
 #tag WindowCode
+	#tag Event
+		Sub Opening()
+		  If Color.IsDarkMode Then
+		    ButtonBackground.FillColor = Color.RGB(218, 218, 218)
+		  Else
+		    ButtonBackground.FillColor = Color.RGB(245, 245, 245)
+		  End If
+
+		  ButtonBackground.BorderColor = ButtonBackground.FillColor
+		End Sub
+	#tag EndEvent
+
+
 	#tag Method, Flags = &h0
 		Sub Action()
 		  RaiseEvent Action
