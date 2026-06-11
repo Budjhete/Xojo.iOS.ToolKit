@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonTextStandard
+	#tag Color
+		Type=1
+		Platform=2
+		Light=00000000
+		Dark=C4C4C400
+	#tag EndColor
+#tag EndColorGroup

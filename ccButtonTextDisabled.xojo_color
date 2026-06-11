@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonTextDisabled
+	#tag Color
+		Type=1
+		Platform=2
+		Light=A0A0A000
+		Dark=41414100
+	#tag EndColor
+#tag EndColorGroup

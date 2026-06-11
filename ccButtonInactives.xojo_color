@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonInactives
+	#tag Color
+		Type=1
+		Platform=2
+		Light=77777700
+		Dark=77777700
+	#tag EndColor
+#tag EndColorGroup

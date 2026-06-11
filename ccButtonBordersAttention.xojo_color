@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonBordersAttention
+	#tag Color
+		Type=1
+		Platform=2
+		Light=EB880B00
+		Dark=FCB50000
+	#tag EndColor
+#tag EndColorGroup

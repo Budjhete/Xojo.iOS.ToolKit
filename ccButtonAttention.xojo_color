@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonAttention
+	#tag Color
+		Type=1
+		Platform=2
+		Light=FF950000
+		Dark=FF9F0A00
+	#tag EndColor
+#tag EndColorGroup

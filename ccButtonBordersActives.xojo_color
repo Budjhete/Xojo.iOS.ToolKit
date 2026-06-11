@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonBordersActives
+	#tag Color
+		Type=1
+		Platform=2
+		Light=0065D84B
+		Dark=499AF946
+	#tag EndColor
+#tag EndColorGroup

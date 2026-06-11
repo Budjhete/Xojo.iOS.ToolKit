@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonDisabled
+	#tag Color
+		Type=1
+		Platform=2
+		Light=E5E5E500
+		Dark=38383800
+	#tag EndColor
+#tag EndColorGroup

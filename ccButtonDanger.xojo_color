@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonDanger
+	#tag Color
+		Type=1
+		Platform=2
+		Light=FF2D5500
+		Dark=FF375F00
+	#tag EndColor
+#tag EndColorGroup

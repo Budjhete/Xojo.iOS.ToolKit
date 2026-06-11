@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonActives
+	#tag Color
+		Type=1
+		Platform=2
+		Light=007AFF99
+		Dark=0A84FF8F
+	#tag EndColor
+#tag EndColorGroup

@@ -1,0 +1,9 @@
+#tag ColorGroup
+	CodeName=ccButtonBordersDanger
+	#tag Color
+		Type=1
+		Platform=2
+		Light=BD234000
+		Dark=FD5C6C00
+	#tag EndColor
+#tag EndColorGroup
