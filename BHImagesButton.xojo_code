@@ -236,7 +236,10 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub PointerUp(position As Point, pointerInfo() As PointerEvent)
-		  If Not Self.Enabled Then Return
+		  If Not Self.Enabled Then
+		    If Self.AccessibilityHint.Trim <> "" Then MessageBox Self.AccessibilityHint
+		    Return
+		  End If
 
 		  Dim shouldAction As Boolean = mPressed And position.X >= 0.0 And position.Y >= 0.0 And position.X <= Me.Width And position.Y <= Me.Height
 		  mPressed = False
